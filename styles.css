@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow:auto;
+}
+
+.row {
+    display: flex;
+  }
+  
+.esq {
+    flex: 30%;
+    padding: 5px;
+    float:left;
+    margin-top: 30px;
+  }
+.cen {
+    flex: 40%;
+    padding: 5px;
+  }
+.desclogo {
+    margin: 20px;
+}
+.dir {
+    flex: 30%;
+    padding: 5px;
+    float:left;
+    margin-top: 30px;
+  }
+input {
+    width: 250px;
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 8px;
+    text-align: left;
+}
+textarea {
+    resize: none;
+    width: 250px;
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 8px;
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+    .esq, .dir {
+        display:none
+    }
+}
+
